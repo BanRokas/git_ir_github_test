@@ -43,7 +43,27 @@
     </section>
     <section> <!-- Eiliškumas Pull Request -->
       <h2>Eiliškumas Pull Request</h2>
-      <p>02.13</p>
+      <p>
+        Apsiėmiau daryti kažkokią užduotį. Kokie mano tolimesni veiksmai?
+      </p>
+      <ol>
+        <li>Susikurti naują šaką - git branch naujaSaka</li>
+        <li>Nueiti į susikurtą šaką - git checkout naujaSaka</li>
+        <li>Atlieki užduotį, kurią apsiėmei daryti. Su vienu arba keliais commit'ais.
+          <ol>
+            <li>Add'ini pakitimus - git add .</li>
+            <li>Commit'ini pakitinimus - git commit -m 'žinutė apie pakitimus'</li>
+          </ol>
+        </li>
+        <li>Nueiti į main/master šaką - git checkout main/master</li>
+        <li>Atnaujinti main/master šaką - git pull</li>
+        <li>Grįžti į savo užduoties šaką - git checkout naujaSaka</li>
+        <li>Sujungti savo šaką su main/master šaka ir išspręsti galimai atsiradusius konfiltus - git merge main</li>
+        <li>Nusiunti savo darbinės šakos pakitimus į gitHub'ą - git push</li>
+        <li>GitHub'e sukurti Pull Request'ą</li>
+        <li>Kiti komandos nariai patvirtina arba atmeta Pull Request'ą</li>
+        <li>Jeigu Pull Request'as sulaukė pakankamai patvirtinimų - vykdyti merge'ą</li>
+      </ol>
     </section>
     <section> <!-- Papildoma info -->
       <h2>Papildoma info</h2>
